@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+    		xmlns:android="http://schemas.android.com/apk/res/android"
+   		    android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+    		android:orientation="vertical"
+    		android:background="#3b3b3b">
+ 
+    <!-- Welcome Message -->
+  <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:textSize="25dip"/>
+    
+    <!-- Displaying username on dashboard upon successful login -->
+  <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/usernameTextView"
+            android:textSize="20dip"
+            android:gravity="center"
+            android:layout_marginTop="20dip"/>
+    
+
+   <!-- View Wishlist Button -->
+	<Button android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+       	    android:text="Your WishList"
+        	android:textSize="15dip"
+        	android:textStyle="bold"
+        	android:id="@+id/btnViewProducts"
+        	android:layout_marginTop="80dip"/>
+
+
+    <!-- Log-out Button -->
+    <Button android:layout_width="fill_parent"
+   		    android:layout_height="wrap_content"
+        	android:text="Logout"
+        	android:textSize="20dip"
+        	android:textStyle="bold"
+        	android:id="@+id/btnLogout"
+        	android:layout_marginTop="80dip"
+        	android:background="@null"/>
+ 
+</LinearLayout>

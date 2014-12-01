@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zkarim"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="18"/>
+
+	<application android:icon="@drawable/ic_launcher" android:label="@string/app_name">
+		<activity android:name="com.loginandregistration.LoginActivity" android:label="@string/app_name"
+		    
+			android:windowSoftInputMode="stateHidden"
+			android:uiOptions="splitActionBarWhenNarrow">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name="com.loginandregistration.RegisterActivity" 
+			android:icon="@drawable/ic_launcher" android:windowSoftInputMode="stateHidden" />
+
+		<activity android:name="com.loginandregistration.DashboardActivity" 
+			android:windowSoftInputMode="stateHidden" />
+		<activity android:name="com.loginandregistration.DatabaseHandler" android:label="@string/app_name"
+			android:windowSoftInputMode="stateHidden" />
+		<activity android:name="com.loginandregistration.JSONParser" android:label="@string/app_name"
+			android:windowSoftInputMode="stateHidden" />
+		<activity android:name="com.loginandregistration.UserFunctions" android:label="@string/app_name"
+			android:windowSoftInputMode="stateHidden" />
+		
+		<!--  The wish-list section begins... -->
+		
+		<!-- All Product Activity -->
+        <activity
+            android:name="com.wishlist.AllProductsActivity"
+            android:label="All Products" >
+        </activity>
+
+        <!-- Add Product Activity -->
+        <activity
+            android:name="com.wishlist.NewProductActivity"
+            android:label="Add New Product" >
+        </activity>
+        
+         <!-- Add Product Activity in View All Products Screen -->
+        <activity
+            android:name="com.wishlist.NewProductAct"
+            android:label="Add New Product" >
+        </activity>
+
+        <!-- Edit Product Activity -->
+        <activity
+            android:name="com.wishlist.EditProductActivity"
+            android:label="Edit Product" >
+        </activity>
+           
+        <!-- All Matches Activity -->
+        <activity
+            android:name="com.wishlist.AllMatches"
+            android:label="All Matches" >
+        </activity>
+        
+	</application>
+	
+		<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	
+</manifest>

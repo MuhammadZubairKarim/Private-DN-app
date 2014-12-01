@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3b3b3b" >
+ 
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dip" >
+        <!--  View Title Label -->
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:text="Register to Deal Notifier"
+            android:textSize="25dip"
+            android:textStyle="bold" />
+        
+         <!--  User_Name Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="User Name" />
+        
+        <!-- User_Name TextField -->
+        <EditText
+            android:id="@+id/registerUser_Name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:singleLine="true"/>
+        
+            <!--  Email Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Email" />
+        
+        <!--  Email TextField -->
+        <EditText
+            android:id="@+id/registerEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:singleLine="true"/>
+ 
+        <!--  Password Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:text="Password" />
+        
+        <!--  Password TextField -->
+        <EditText
+            android:id="@+id/registerPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:password="true" 
+            android:singleLine="true"/>
+        
+        <!--  First_Name Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="First Name" />
+        
+        <!-- First_Name TextField -->
+        <EditText
+            android:id="@+id/registerFirst_Name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:singleLine="true"/>
+ 
+        <!--  Last_Name Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Last Name" />
+        
+        <!-- Last_Name TextField -->
+        <EditText
+            android:id="@+id/registerLast_Name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:singleLine="true"/>
+        
+        <!--  Age Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Age" />
+        
+        <!-- Age TextField -->
+        <EditText
+            android:id="@+id/registerAge"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:singleLine="true"/>
+        
+        <!--  Country Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Country" />
+        
+        <!-- Country TextField -->
+        <EditText
+            android:id="@+id/registerCountry"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:singleLine="true"/>
+        
+        <!--  Postal_Code Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Postal Code" />
+        
+        <!-- Postal_Code TextField -->
+        <EditText
+            android:id="@+id/registerPostal_Code"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:singleLine="true"/>
+ 
+        <!--  Error message -->
+        <TextView android:id="@+id/register_error"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#e30000"
+                    android:padding="10dip"
+                    android:textStyle="bold"/>
+ 
+        <!--  Login Button -->
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:text="Register" />
+ 
+        <!--  Link to Login Screen -->
+        <Button
+            android:id="@+id/btnLinkToLoginScreen"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:background="@null"
+            android:text="Already registred. Log Me In!"
+            android:textStyle="bold" />
+    </LinearLayout>
+ 
+</ScrollView>
